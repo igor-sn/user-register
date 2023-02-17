@@ -5,6 +5,6 @@ import (
 	"net/http"
 )
 
-func healthCheck(c *gin.Context) {
+func Pong(c *gin.Context) {
 	c.String(http.StatusOK, "pong")
 }

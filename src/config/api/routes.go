@@ -9,5 +9,5 @@ type Routes struct {
 }
 
 func (p *Routes) GetRoutes(router *gin.Engine) {
-	router.GET("/ping", healthcheck.healthCheck)
+	router.GET("/ping", healthcheck.Pong)
 }
