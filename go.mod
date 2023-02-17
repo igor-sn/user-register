@@ -2,10 +2,15 @@ module github.com/igor-sn/user-register
 
 go 1.20
 
-require github.com/gin-gonic/gin v1.8.2
+require (
+	github.com/gin-gonic/gin v1.8.2
+	github.com/go-eden/slf4go v1.1.2
+)
 
 require (
 	github.com/gin-contrib/sse v0.1.0 // indirect
+	github.com/go-eden/common v0.1.14 // indirect
+	github.com/go-eden/routine v0.0.1 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.11.1 // indirect
