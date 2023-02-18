@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-eden/slf4go"
-	"github.com/igor-sn/user-register/src/config/api"
+	"github.com/igor-sn/user-register/src/configs/api"
 )
 
 func main() {

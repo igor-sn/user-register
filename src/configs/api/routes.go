@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/igor-sn/user-register/src/config/healthcheck"
+	"github.com/igor-sn/user-register/src/configs/healthcheck"
 )
 
 type Routes struct {
