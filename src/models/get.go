@@ -11,7 +11,6 @@ func Get(id int64) (user User, err error) {
 	defer conn.Close()
 
 	sql := `SELECT * FROM users WHERE id=$1`
-
 	row := conn.QueryRow(sql, id)
 
 	err = row.Scan(&user.ID, &user.Name, &user.Age, &user.Email)
