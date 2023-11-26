@@ -9,7 +9,6 @@ func GetAll() (users []User, err error) {
 	}
 
 	defer conn.Close()
-
 	sql := `SELECT * FROM users`
 	rows, err := conn.Query(sql)
 	if err != nil {
