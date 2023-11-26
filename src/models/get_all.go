@@ -21,6 +21,7 @@ func GetAll() (users []User, err error) {
 		if err != nil {
 			continue
 		}
+
 		users = append(users, user)
 	}
 
