@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/gin-gonic/gin v1.8.2
+	github.com/go-chi/chi/v5 v5.0.10
 	github.com/go-eden/slf4go v1.1.2
 	github.com/lib/pq v1.10.7
 	github.com/spf13/viper v1.15.0

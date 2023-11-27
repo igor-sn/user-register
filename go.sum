@@ -63,6 +63,8 @@ github.com/gin-contrib/sse v0.1.0 h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE
 github.com/gin-contrib/sse v0.1.0/go.mod h1:RHrZQHXnP2xjPF+u1gW/2HnVO7nvIa9PG3Gm+fLHvGI=
 github.com/gin-gonic/gin v1.8.2 h1:UzKToD9/PoFj/V4rvlKqTRKnQYyz8Sc1MJlv4JHPtvY=
 github.com/gin-gonic/gin v1.8.2/go.mod h1:qw5AYuDrzRTnhvusDsrov+fDIxp9Dleuu12h8nfB398=
+github.com/go-chi/chi/v5 v5.0.10 h1:rLz5avzKpjqxrYwXNfmjkrYYXOyLJd37pz53UFHC6vk=
+github.com/go-chi/chi/v5 v5.0.10/go.mod h1:DslCQbL2OYiznFReuXYUmQ2hGd1aDpCnlMNITLSKoi8=
 github.com/go-eden/common v0.1.14 h1:QiSxZLFQDXE2F7LX+ZnaiTs15t0n3lfZo5PanIJiv60=
 github.com/go-eden/common v0.1.14/go.mod h1:vcNs8vhRl9/YFxtkgUPbAhTUSt40NcK7bF8d3S3n5sU=
 github.com/go-eden/routine v0.0.1 h1:EFzGtHcxmv2gAcdoG7vMESe+26nuIl0/vTMtc030m/4=
