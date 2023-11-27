@@ -8,7 +8,7 @@ import (
 	"strconv"
 )
 
-func Delete( (w http.ResponseWriter, r *http.Request) {
+func Delete(w http.ResponseWriter, r *http.Request) {
 	id, err := strconv.Atoi(chi.URLParam(r, "id"))
 	if err != nil {
 		log.Printf("Error converting id: %v", err)
