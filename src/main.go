@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/gin-gonic/gin"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-eden/slf4go"
 	"github.com/igor-sn/user-register/src/configs"
@@ -11,14 +10,10 @@ import (
 )
 
 func main() {
-	srv := run()
-	if err := srv.Run(); err != nil {
-		slog.Errorf("error running server", err)
-		panic(fmt.Errorf(err.Error()))
-	}
+	run()
 }
 
-func run() (svr *gin.Engine) {
+func run() () {
 	err := configs.Load()
 	if err != nil {
 		panic(err)
@@ -34,5 +29,5 @@ func run() (svr *gin.Engine) {
 	}
 
 	slog.Infof("Server started | PORT: 8080")
-	return svr
+	return
 }
