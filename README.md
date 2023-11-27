@@ -1,2 +1,2 @@
 # user-register
-Project to register, query or delete users
+Project to register, query or delete users.
